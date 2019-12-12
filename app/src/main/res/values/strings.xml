@@ -13,7 +13,7 @@
     @author Sherdle
     -->
 
-    <string name="app_name">AppName</string>
+    <string name="app_name">MySwiftpay</string>
 
     <!-- API keys -->
     <string name="twitter_api_consumer_key"></string>
@@ -34,7 +34,7 @@
     <string name="woocommerce_consumer_secret"></string>
     <string name="woocommerce_url"></string>
 
-    <string name="onesignal_app_id"></string>
+    <string name="onesignal_app_id">170269179001</string>
     <string name="onesignal_google_project_number"></string>
 
     <!-- About text, you can use basic html, stay between [ and ] -->

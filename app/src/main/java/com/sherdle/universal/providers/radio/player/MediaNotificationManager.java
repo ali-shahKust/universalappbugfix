@@ -43,7 +43,7 @@ public class MediaNotificationManager {
 
     public void startNotify(String playbackStatus) {
         this.playbackStatus = playbackStatus;
-        this.notifyIcon = BitmapFactory.decodeResource(resources, R.drawable.ic_launcher);
+        this.notifyIcon = BitmapFactory.decodeResource(resources, R.drawable.logo_app);
 
         startNotify();
     }
@@ -59,7 +59,7 @@ public class MediaNotificationManager {
         if (playbackStatus == null) return;
 
         if (notifyIcon == null)
-            notifyIcon = BitmapFactory.decodeResource(resources, R.drawable.ic_launcher);
+            notifyIcon = BitmapFactory.decodeResource(resources, R.drawable.logo_app);
 
         NotificationManager notificationManager =
                 (NotificationManager) service.getSystemService(Context.NOTIFICATION_SERVICE);
