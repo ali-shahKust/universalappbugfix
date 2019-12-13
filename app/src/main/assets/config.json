@@ -1,4 +1,20 @@
 [
+
+  {
+    "title":"MySwiftPay",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.myswiftpayment.com/us/flight.html"
+        ]
+      }
+    ]
+  },
   {
     "title":"Blog",
     "drawable":"",
@@ -16,28 +32,13 @@
     ]
   },
   {
-  "title":"MySwiftPay",
-  "drawable":"",
-  "submenu":"",
-  "iap":false,
-  "tabs":[
-    {
-      "title":"WebView",
-      "provider":"webview",
-      "arguments":[
-        "http://www.myswiftpayment.com/us/flight.html"
-      ]
-    }
-  ]
-},
-  {
-    "title":"Radio 3FM",
+    "title":"Music",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Radio 3FM",
+        "title":"Music",
         "provider":"radio",
         "arguments":[
           "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1627230"
