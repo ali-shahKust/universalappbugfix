@@ -38,25 +38,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Music",
-        "provider":"radio",
+        "title":"WebView",
+        "provider":"webview",
         "arguments":[
-          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1627230"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Live TV ABC",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Live TV ABC",
-        "provider":"stream",
-        "arguments":[
-          "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "https://www.freelancecomli.com/music"
         ]
       }
     ]

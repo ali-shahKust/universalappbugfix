@@ -34,7 +34,7 @@
     <string name="woocommerce_consumer_secret"></string>
     <string name="woocommerce_url"></string>
 
-    <string name="onesignal_app_id">170269179001</string>
+    <string name="onesignal_app_id">e142278c-ab49-4ccb-94e9-ca935fbfd48b</string>
     <string name="onesignal_google_project_number"></string>
 
     <!-- About text, you can use basic html, stay between [ and ] -->
@@ -59,8 +59,6 @@
     <string name="username">Username</string>
     <string name="profile_image">Profile image</string>
     <string name="message">Message</string>
-
-    <string name="tweet_share_header">\'s tweet</string>
 
     <!-- rss -->
     <string name="ok">Ok</string>
@@ -164,15 +162,9 @@
 
     <!-- tumblr -->
     <string name="image_descr">Image</string>
-    <string name="set">Set</string>
     <string name="save">Save</string>
-    <string name="tumblr_share_begin">Check out this post I saw in</string>
-    <string name="saved">Saved at:</string>
-    <string name="set_confirm">Are you sure you would like to set this image as wallpaper?</string>
-    <string name="set_success">You have set a new Wallpaper!</string>
 
     <!-- SoundCloud -->
-    <string name="duration">%1$d:%2$02d</string>
     <string name="toast_track_added">Added to the playlist. Touch again to play now.</string>
     <string name="playback_view_time">%1$02d:%2$02d</string>
     <string name="play_all">Play all</string>
@@ -219,7 +211,6 @@
     <string name="quantity_picker">Select quantity</string>
     <string name="cart_empty_title">Your cart is empty</string>
     <string name="cart_empty_subtitle">Start shopping to fill your cart with items</string>
-    <string name="review">Reviews</string>
     <string name="details">Details</string>
     <string name="description">Description</string>
     <string name="varations">Options</string>
@@ -289,6 +280,5 @@
     <string name="dialog_connection_description">We can not connect with our APIs.\n\nPlease ensure that you have set up your API keys and parameters as documented!</string>
     <string name="dialog_internet_title">No internet</string>
     <string name="dialog_internet_description">You seem to have no internet connection, this app requires internet to get the latest content.\n\nYou can continue to see your favorite/offline items!</string>
-    <string name="title_activity_woo_commerce_login">Sign in</string>
 
 </resources>

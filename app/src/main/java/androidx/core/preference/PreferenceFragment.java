@@ -24,7 +24,6 @@ import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
-import androidx.fragment.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +31,10 @@ import android.view.View.OnKeyListener;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.sherdle.universal.R;
+import androidx.fragment.app.Fragment;
+
+import flight.sherdle.universal.R;
+
 
 public abstract class PreferenceFragment extends Fragment implements
 		androidx.core.preference.PreferenceManagerCompat.OnPreferenceTreeClickListener {

@@ -7,7 +7,7 @@
 
      <ImageView
         android:id="@+id/imageView1"
-        android:src="@drawable/drawer_header"
+        android:src="@drawable/logo_app"
         android:adjustViewBounds="true"
         android:maxHeight="245dp"
         android:scaleType="centerCrop"
