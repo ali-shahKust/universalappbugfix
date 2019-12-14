@@ -70,4 +70,5 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:$gps_version"
     implementation 'com.google.maps.android:android-maps-utils:0.5+'
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }

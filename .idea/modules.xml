@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodeCanyon-template.iml" filepath="$PROJECT_DIR$/CodeCanyon-template.iml" group="template" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/template.iml" filepath="$PROJECT_DIR$/template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/template-app.iml" filepath="$PROJECT_DIR$/app/template-app.iml" group="template/app" />
+      <module fileurl="file://$PROJECT_DIR$/universalappbugfix.iml" filepath="$PROJECT_DIR$/universalappbugfix.iml" group="universalappbugfix" />
+      <module fileurl="file://$PROJECT_DIR$/app/universalappbugfix-app.iml" filepath="$PROJECT_DIR$/app/universalappbugfix-app.iml" group="universalappbugfix/app" />
     </modules>
   </component>
 </project>
