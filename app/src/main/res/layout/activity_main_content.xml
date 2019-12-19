@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="flight.sherdle.universal.MainActivity"
+    tools:context="com.flight.travelmyswiftpay.MainActivity"
     tools:showIn="@layout/activity_main"
-    app:layout_behavior="flight.sherdle.universal.util.CustomScrollingViewBehavior">
+    app:layout_behavior="com.flight.travelmyswiftpay.util.CustomScrollingViewBehavior">
 
-    <flight.sherdle.universal.util.layout.DisableableViewPager
+    <com.flight.travelmyswiftpay.util.layout.DisableableViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </flight.sherdle.universal.util.layout.DisableableViewPager>
+    </com.flight.travelmyswiftpay.util.layout.DisableableViewPager>
 
 </RelativeLayout>

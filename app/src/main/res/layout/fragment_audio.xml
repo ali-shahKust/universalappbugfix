@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="flight.sherdle.universal.MainActivity">
+    tools:context="com.flight.travelmyswiftpay.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
@@ -12,7 +12,7 @@
         android:visibility="visible"
         android:divider="@null" />
 
-    <flight.sherdle.universal.providers.audio.ui.views.BottomRecyclerListView
+    <com.flight.travelmyswiftpay.providers.audio.ui.views.BottomRecyclerListView
         android:id="@+id/activity_artist_playlist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

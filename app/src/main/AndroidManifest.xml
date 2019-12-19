@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="flight.sherdle.universal"
+    package="com.flight.travelmyswiftpay"
     android:versionCode="9"
     android:versionName="1.0">
     <!-- Always Required to get content and check if internet is available -->
@@ -24,7 +24,7 @@
         android:required="true" />
 
     <application
-        android:name="flight.sherdle.universal.App"
+        android:name="com.flight.travelmyswiftpay.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -33,7 +33,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:icon">
-        <activity android:name="flight.sherdle.universal.SplashScreenActivity">
+        <activity android:name="com.flight.travelmyswiftpay.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,38 +42,38 @@
         </activity>
         <!-- Activities -->
         <activity
-            android:name="flight.sherdle.universal.MainActivity"
+            android:name="com.flight.travelmyswiftpay.MainActivity"
             android:label="@string/app_name">
 
         </activity>
-        <activity android:name="flight.sherdle.universal.providers.rss.ui.RssDetailActivity" />
-        <activity android:name="flight.sherdle.universal.providers.videos.ui.VideoDetailActivity" />
-        <activity android:name="flight.sherdle.universal.providers.wordpress.ui.WordpressDetailActivity" />
-        <activity android:name="flight.sherdle.universal.providers.woocommerce.ui.ProductActivity" />
+        <activity android:name="com.flight.travelmyswiftpay.providers.rss.ui.RssDetailActivity" />
+        <activity android:name="com.flight.travelmyswiftpay.providers.videos.ui.VideoDetailActivity" />
+        <activity android:name="com.flight.travelmyswiftpay.providers.wordpress.ui.WordpressDetailActivity" />
+        <activity android:name="com.flight.travelmyswiftpay.providers.woocommerce.ui.ProductActivity" />
         <activity
-            android:name="flight.sherdle.universal.comments.CommentsActivity"
+            android:name="com.flight.travelmyswiftpay.comments.CommentsActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.HolderActivity"
+            android:name="com.flight.travelmyswiftpay.HolderActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.attachmentviewer.ui.AttachmentActivity"
+            android:name="com.flight.travelmyswiftpay.attachmentviewer.ui.AttachmentActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.attachmentviewer.ui.AudioPlayerActivity"
+            android:name="com.flight.travelmyswiftpay.attachmentviewer.ui.AudioPlayerActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.attachmentviewer.ui.VideoPlayerActivity"
+            android:name="com.flight.travelmyswiftpay.attachmentviewer.ui.VideoPlayerActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.providers.woocommerce.ui.CheckoutActivity"
+            android:name="com.flight.travelmyswiftpay.providers.woocommerce.ui.CheckoutActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="flight.sherdle.universal.providers.woocommerce.ui.WooCommerceLoginActivity"
+            android:name="com.flight.travelmyswiftpay.providers.woocommerce.ui.WooCommerceLoginActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="flight.sherdle.universal.providers.videos.player.YouTubePlayerActivity"
+            android:name="com.flight.travelmyswiftpay.providers.videos.player.YouTubePlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="sensor"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
@@ -88,10 +88,10 @@
             android:name="com.google.android.gms.oss.licenses.OssLicensesActivity"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" /> <!-- Services -->
         <service
-            android:name="flight.sherdle.universal.providers.audio.player.player.PlaybackService"
+            android:name="com.flight.travelmyswiftpay.providers.audio.player.player.PlaybackService"
             android:exported="false" />
-        <service android:name="flight.sherdle.universal.providers.radio.player.RadioService" />
-        <service android:name="flight.sherdle.universal.attachmentviewer.MusicService" />
+        <service android:name="com.flight.travelmyswiftpay.providers.radio.player.RadioService" />
+        <service android:name="com.flight.travelmyswiftpay.attachmentviewer.MusicService" />
         <!--
         A receiver that will receive media buttons and send as
         intents to your MediaBrowserServiceCompat implementation.
@@ -103,7 +103,7 @@
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
-        <receiver android:name="flight.sherdle.universal.providers.audio.player.media.MediaSessionReceiver">
+        <receiver android:name="com.flight.travelmyswiftpay.providers.audio.player.media.MediaSessionReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>

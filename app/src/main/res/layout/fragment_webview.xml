@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     
-    <flight.sherdle.universal.providers.web.AdvancedWebView
+    <com.flight.travelmyswiftpay.providers.web.AdvancedWebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

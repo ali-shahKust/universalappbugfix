@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_height="wrap_content">
 
-    <flight.sherdle.universal.util.layout.RoundedImageView
+    <com.flight.travelmyswiftpay.util.layout.RoundedImageView
         android:id="@+id/header_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

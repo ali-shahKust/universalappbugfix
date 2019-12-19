@@ -12,7 +12,7 @@
         android:padding="@dimen/spacing_xl"
         android:clipToPadding="false">
 
-        <flight.sherdle.universal.util.layout.RoundedImageView
+        <com.flight.travelmyswiftpay.util.layout.RoundedImageView
             android:id="@+id/thumbImage"
             android:layout_width="match_parent"
             android:layout_height="150dp"

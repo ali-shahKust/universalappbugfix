@@ -10,7 +10,7 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "http://www.myswiftpayment.com/us/flight.html"
+          "http://www.myswiftpay.club"
         ]
       }
     ]

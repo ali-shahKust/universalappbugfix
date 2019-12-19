@@ -33,7 +33,7 @@ import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 
-import flight.sherdle.universal.R;
+import com.flight.travelmyswiftpay.R;
 
 
 public abstract class PreferenceFragment extends Fragment implements
